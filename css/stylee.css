@@ -1,0 +1,559 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+     max-width: 100%;
+  
+}
+body{
+    max-width: 100%;
+    margin: 0;
+     font-family: "Courier New", Courier, monospace !important;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Satisfy', cursive;
+}
+
+/*Start Top Header*/
+ h5{
+    font-size: 1.8rem;
+}
+ h5::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+    margin: 0 1rem;
+    
+   
+    
+}
+sup{
+    top: -1.5em !important;
+    left: .8em;
+    letter-spacing:.1em;
+    color: #999;
+    
+    
+    
+}
+.topSection {
+    margin-bottom: 15%;
+    overflow: hidden;
+    
+   
+}
+
+.topSection .sitename{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 1.5vh 10vw;
+    
+}
+.topSection .sitename h1{
+    text-transform: lowercase;
+    font-weight: 900;
+    
+}
+
+.topSection .nav-img{
+    width:70vw;
+    height:75vh;
+    
+     background: linear-gradient(rgba(144, 144, 144, 0.8), rgba(0, 0, 0, 0.38)), url(../img/comp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    float: right;
+    border-bottom: 1rem outset #F7941D;
+
+   
+    
+ 
+}
+.topSection .nav-img::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    z-index: 2; 
+    width: .8rem; 
+    height: 10rem;
+    background: #F7941D;
+    
+}
+.topSection .nav-img .navbar-nav .nav-item{
+    padding:.5rem;
+}
+.topSection .nav-img .navbar-nav .nav-item .nav-link{
+     text-transform: capitalize;
+    font-size:19px;
+    color: #fff !important;
+    font-weight: 600;
+  
+  
+}
+.topSection .nav-img .navbar-nav .nav-item .nav-link:hover{
+    color: #eee !important;
+}
+.topSection .nav-img  .navbar-nav .nav-item:first-child::after{
+    content: "";
+    width:3rem;
+    display: block;
+    margin: 1% 0;
+    border-bottom:.1rem solid #fff;
+   
+    
+}
+.navbar-toggler-icon{
+    
+}
+.topSection .black-div{
+    width: 55vw;
+    height:70vh;
+    z-index: 1;
+    background-color: #000;
+    position: absolute;
+    top: 7vw;
+    left: 0;
+  
+}
+.topSection .black-div2{
+    width: 15vw;
+    height: 15vh;
+    z-index: 6;
+    background-color: #000;
+    position: absolute;
+    top: 60vh;
+    left: 40vw
+  
+}
+
+.topSection .text-overlay{
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right:50vh;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size:4rem;
+    z-index: 44444;
+    
+}
+.topSection .text-overlay h5{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+
+
+
+/*end Top Header*/
+
+
+
+/* start section Whoare*/
+body .Whoare{
+    padding: 3%;
+    margin-bottom:3%;
+    margin-top:3%; 
+    overflow: hidden;
+    
+    
+    
+}
+body .Whoare h5{
+    font-size: 1.4rem;
+}
+body .Whoare h5::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+    margin: 0 1rem;
+    
+   
+    
+}
+body .Whoare p{
+    width: 80%;
+    line-height: 1.52;
+    color: #888;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+body .Whoare .container1{
+    width: 20rem;
+    height: 20rem;
+    background-image: url(../img/are2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+body .Whoare .container2{
+ width: 25rem;
+    height: 20rem;
+    z-index: 3;
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    background-image: url(../img/are1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+/*
+body .Whoare .container2::after{
+    content: "";
+    width:20%;
+    height: 10%;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    
+}
+*/
+body .Whoare .divlastempty1{
+    width: 5rem;
+    height: 3rem;
+    z-index: 2;
+    background-color: #F79E34;
+    position: absolute;
+    top: 4rem;
+    left: 8rem;
+    
+}
+body .Whoare .divlastempty2{
+    width: 5rem;
+    height: 6rem;
+    z-index: 4;
+    background-color: #F79E34;
+    position: absolute;
+    top: 23rem;
+    left: 8rem
+    
+}
+
+
+/* end section Whoare*/
+
+
+/* start section Services*/
+
+body .services{
+      padding: 3%;
+    margin-bottom:5%;
+    margin-top:3%;
+    position: relative;
+    
+}
+body .services .card{
+    display: inline-block;
+    padding: 3%;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.3);
+}
+body .services .card p{
+    font-size: 18pxl;
+    font-weight: bold;
+    text-align: left;
+    padding: 3%;
+    float: left;
+     
+}
+body .services .card span{
+    padding: 3%;
+    float: right;
+}
+
+body .services .ourservices{
+    background-color: #000;
+    position:absolute;
+    left: 0;
+    right: 65vw;
+    top: 2vh;
+    bottom: 18vh;
+    color: #fff;
+    
+    
+    
+}
+body .services .ourservices h5{
+    text-align: center;
+    padding-top: 13vh;
+}
+
+
+
+/* end section Services*/
+
+
+
+/* start section VerticalAI*/
+
+body .VerticalAI{
+     padding: 3%;
+    margin-bottom:10%;
+    margin-top:3%; 
+    overflow: hidden;
+   
+    
+}
+
+body .VerticalAI p{
+    width: 80%;
+    line-height: 1.62;
+    color: #888;
+    font-weight: 400;
+    font-size: 17px;
+     
+   
+}
+
+body .VerticalAI .divempty{
+    width: 30vw;
+    height: 35vh;
+    background-color: #F79E34;
+    position: relative;
+}
+body .VerticalAI .divimg{
+    width:30vw;
+    height:30vh;
+    z-index: 2;
+    background-image: url(../img/ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 4rem;
+    left:5rem; 
+
+}
+body .VerticalAI .divimg::before{
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom:-14%;
+    
+    z-index: 2; 
+    width: 3rem; 
+    height: 4rem;
+    background: #F7941D;
+    
+}
+
+/* end section VerticalAI*/
+
+
+
+/* start section Ourcustomer*/
+
+body .Ourcustomer{
+    padding: 3%;
+    text-align: center;
+    margin-bottom:3%; 
+    
+    
+    
+}
+
+body .Ourcustomer .card ,.card-header{
+    background:none !important;
+    border: none !important;
+    
+    
+}
+
+body .Ourcustomer .card .card-header a img{
+    width: 50%;
+   
+}
+body .Ourcustomer p{
+    font-size: 1.5rem;
+   
+}
+body .Ourcustomer p::after,body .Ourcustomer p::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+   
+    margin: 0 1rem;
+    transform: translateY(-.5rem);
+ 
+}
+/* end section Ourcustomer*/
+
+
+
+
+/* start section Contact us */
+body .contactus{
+    padding: 3%;
+    text-align: center;
+}
+body .contactus p{
+    color: #888;
+    font-size:15px; 
+    
+}
+body .contactus h4{
+    color: #F79E34;
+    font-weight: bold;
+    font-size: 2rem;
+}
+body .contactus button{
+     background-color: #F7941D;
+    color: #fff;
+    border: none;
+   
+}
+/* end section Contact us */
+
+
+
+/* start section News*/
+
+
+body .News{
+    text-align: center;
+   margin-top:3%;
+/*    background-image: url(../img/ab2.jpg);*/
+ 
+    padding: 5% 0;
+    background: linear-gradient(rgba(144, 144, 144, 0.8), rgba(0, 0, 0, 0.38)), url(../img/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+/*
+   opacity: .6;
+    position: relative;
+*/
+    
+    
+    
+}
+
+body .News .btn{
+    background-color: #F7941D;
+    color: #fff;
+    border: none;
+    
+}
+
+/* start section News*/
+
+
+
+/* start section footer*/
+
+
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2% 1% ;
+    
+}
+footer .links > ul{
+    display: inline-block;
+    margin-left:7%;
+    padding:3% 10% 0 0;
+    float: left;
+     
+    
+    
+}
+footer .links ul li a{
+    text-decoration: none; 
+    margin:8% 12% 0 0;
+    color: #fff;
+}
+
+footer .social ul {
+    margin-top: 7%;
+    padding: 0;
+   
+}
+footer .social ul li{
+    display: inline;
+     
+    
+    
+}
+footer .social ul li a{
+    text-decoration: none; 
+    margin:0 10% 0 0;
+   
+    color: #fff;
+    
+    
+}
+footer .social ul li a:active{
+    color: #F7941D;
+}
+footer .social ul li a:hover{
+    color: #F7941D;
+}
+footer .copyright{
+    border-top: 1px solid #ddd;
+    margin-top:2%;
+    padding-top: 2%;
+}
+/* end section footer*/
+
+@media all and (max-width:1000px){
+.topSection .sitename{
+   
+    padding:0;
+    margin-top: -1rem;
+    
+}
+.topSection .sitename h1{
+    
+    font-weight: 900;
+    
+}
+sup{
+/*    top: -3em !important;*/
+    left: .5em;
+ 
+    
+    
+}
+.topSection .nav-img .navbar-nav .nav-item{
+    padding:.1rem;
+}
+    
+.topSection .text-overlay{
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right:10vh;
+    bottom: 0;
+    z-index:0;
+    
+ 
+    
+}
+.topSection .text-overlay h3{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 1;
+    
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+

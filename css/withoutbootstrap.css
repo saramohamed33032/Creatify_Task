@@ -1,0 +1,749 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+  
+}
+body{
+    max-width: 100%;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+   
+}
+.container{
+    max-width:85%;
+    margin: auto;
+   
+    
+   
+}
+.text-center{
+    text-align: center;
+}
+.text-white{
+    color: #fff;
+}
+.text-orange{
+    color: #F7941D;
+}
+h4 ,h2,h3{
+    font-weight: 900;
+    text-transform: capitalize;
+    display: block;
+    padding: 3% 0;
+    font-size:2rem; 
+}
+a{
+    text-decoration: none;
+}
+.parg{
+     line-height: 1.52;
+    color: #888;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 2% 0;
+    
+}
+.btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    padding:1% 4%;;
+    border-radius: 3px;
+    background-color: #F7941D;
+    color: #fff;
+    border: none;
+    margin: 2% 0;
+    
+}
+
+.btn-outline-dark{
+     display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    padding:2% 4%;
+    border-radius: 6px;
+    background-color: #fff;;
+    color: #000;
+    border: none;
+    margin: 2% 0;
+    border: 1px solid #000;
+    
+}
+.btn-outline-dark:hover{
+    background-color: #F7941D;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.form-control{
+    min-width:40vw; 
+    padding: 1%;
+    border-radius: 6px;
+    margin: 0 1%; 
+    
+}
+
+ h3{
+    font-size: 1.4rem;
+}
+ h3::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+    margin: 0 1rem;
+    
+   
+    
+}
+
+sup{
+    top: -1.5em !important;
+    left: .8em;
+    letter-spacing:.1em;
+    color: #999;
+    font-size: 10px;
+    
+    
+    
+}
+
+
+
+
+
+
+/*
+ h5{
+    font-size: 1.4rem;
+}
+ h5::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+    margin: 0 1rem;
+    
+   
+    
+}
+*/
+
+
+
+
+/*Start Top Header*/
+.topSection {
+    margin-bottom: 15%;
+    overflow: hidden;
+   
+}
+
+.topSection .sitename{
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 1.5vh 10vw;
+    
+}
+.topSection .sitename h1{
+    text-transform: lowercase;
+    font-weight: 900;
+
+}
+
+.topSection .nav-img{
+    width:70vw;
+    height:75vh;
+    
+     background: linear-gradient(rgba(144, 144, 144, 0.8), rgba(0, 0, 0, 0.38)), url(../img/comp.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    float: right;
+    border-bottom: 1rem outset #F7941D;
+
+   
+    
+ 
+}
+.topSection .nav-img::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    z-index: 2; 
+    width: .8rem; 
+    height: 10rem;
+    background: #F7941D;
+    
+}
+.topSection .nav-img  .nav-item{
+     padding:1rem;
+     display: inline-block;
+    list-style: none;
+    
+}
+.topSection .nav-img  .nav-item .nav-link{
+   text-decoration: none;
+     text-transform: capitalize;
+    font-size:19px;
+    color: #fff !important;
+    font-weight: 600;
+  
+  
+}
+.topSection .nav-img  .nav-item .nav-link:hover{
+    color: #eee !important;
+}
+.topSection .nav-img   .nav-item:first-child::after{
+    content: "";
+    width:3rem;
+    display: block;
+    margin: 1% 0;
+    border-bottom:.1rem solid #fff;
+   
+    
+}
+.navbar-toggler-icon{
+    width: 3rem;
+    height: 3rem;
+    margin: 3px 7%;
+    display: none;
+}
+.topSection .black-div{
+    width: 55vw;
+    height:70vh;
+    z-index: 1;
+    background-color: #000;
+    position: absolute;
+    top: 7vw;
+    left: 0;
+  
+}
+.topSection .black-div2{
+    width: 15vw;
+    height: 15vh;
+    z-index: 6;
+    background-color: #000;
+    position: absolute;
+    top: 60vh;
+    left: 40vw
+  
+}
+
+.topSection .text-overlay{
+    position: absolute;
+    top: 25vh;
+    left: 0;
+    right:50vh;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size:4rem;
+    z-index: 444; 
+}
+.topSection .text-overlay h3{
+    font-size: 3rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 1.7;
+}
+
+
+/*end Top Header*/
+
+
+
+
+
+/* start section Whoare*/
+body .Whoare{
+    padding: 3%;
+    margin-bottom:5%;
+    margin-top:3%; 
+    overflow: hidden;
+    position: relative;
+}
+body .Whoare .firstImg{
+    width: 19rem !important; 
+    height:200px;
+    background-image: url(../img/are2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+body .Whoare .seconfimg{
+    width: 20rem !important; 
+    height:200px;
+     background-image: url(../img/are1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:6rem;
+    left: 10rem;
+    
+  
+}
+body .Whoare .seconfimg::before{
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom:-14%;
+    
+    z-index: 2; 
+    width: 3rem; 
+    height: 4rem;
+    background: #F7941D;
+    
+    
+}
+body .Whoare .seconfimg::after{
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom:100%;
+    z-index: 2;
+    width: 3rem;
+    height: 2rem;
+    background: #F7941D;
+    
+    
+}
+
+body .Whoare .container .row div{
+    width: 50%;
+    float: left;
+      margin-top: 2%;
+    
+}
+
+body .Whoare p{
+    width: 80%;
+    line-height: 1.52;
+    color: #888;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+/* end section Whoare*/
+
+
+/* start section Services*/
+
+body .services{
+    padding: 3%;
+    margin-bottom:5%;
+    margin-top:5%;
+    overflow: hidden;
+    z-index: 333;
+    position: relative;
+   
+    
+}
+body .services .container .row{
+    position: relative;
+    z-index: 22;
+}
+
+body .services .container .row div{
+    width: 33.33%;
+    float: left;
+    margin: 2% 0;
+    
+}
+body .services .card{
+    display: block;
+    padding: 5%;
+    box-shadow: 1px 1px 15px rgba(0,0,0,.3);
+    border-radius: 2%;
+    height:10rem; 
+  
+
+    
+}
+
+body .services .xx{
+    margin-left:33.33% !important; 
+}
+
+body .services .card p{
+    
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding: 3%;
+    float: left;
+     
+}
+body .services .card span{
+    padding: 3%;
+    float: right;
+}
+
+body .services .ourservices{
+    background-color: #000;
+    position:absolute;
+    left: 0;
+    right: 65vw;
+    top: 2vh;
+    bottom: 18vh;
+    color: #fff;
+    z-index: 22;
+    margin-top:5%;
+    
+    
+}
+body .services .ourservices h3{
+    text-align: center;
+    padding-top: 13vh;
+}
+
+
+
+/* end section Services*/
+
+
+/* start section VerticalAI*/
+
+body .VerticalAI{
+    padding: 3%;
+    margin-bottom:10%;
+    margin-top:3%; 
+    overflow: hidden;
+    position: relative;
+ 
+   
+    
+}
+body .VerticalAI .container .row div{
+    width: 50%;
+    float: left;
+    padding: 1%;
+}
+body .VerticalAI .divempty{
+    margin-left:5%; 
+    width: 19rem !important;
+    height: 200px;
+    background-color: #F79E34;
+    position: relative !important;
+    
+    
+}
+body .VerticalAI .divimg{
+   margin-left:5%; 
+    width: 19rem !important;
+    height: 200px;
+   
+    background-image: url(../img/ab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:10rem;
+    right: 10rem;
+   
+    
+   
+
+}
+body .VerticalAI .divimg::before{
+    content: "";
+    position: absolute;
+    left: 35%;
+    bottom:-14%;
+    
+    z-index: 2; 
+    width: 3rem; 
+    height: 4rem;
+    background: #F7941D;
+    
+}
+
+/* end section VerticalAI*/
+
+
+
+/* start section Ourpartener*/
+body .Ourpartener .container .row div{
+     margin-top: 2%;
+    width: 33.33%;
+    float: left;
+}
+body .Ourpartener h2::after,body .Ourpartener h2::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+   
+    margin: 0 1rem;
+    transform: translateY(-.5rem);
+ 
+}
+/* end section Ourpartener*/
+
+
+
+/* start section Ourcustomer*/
+body .Ourcustomer, body .Ourpartener{
+    padding: 3%;
+    text-align: center;
+    margin-bottom:10%; 
+    overflow: hidden;
+    
+    
+    
+}
+body .Ourcustomer .container .row div{
+    margin-top: 4%;
+    width: 25%;
+    float: left;
+}
+body .Ourcustomer h2::after,body .Ourcustomer h2::before{
+    content: "";
+    display: inline-block;
+    border-bottom:.2rem solid #F79E34;
+    width: 3rem;
+   
+    margin: 0 1rem;
+    transform: translateY(-.5rem);
+ 
+}
+
+/* end section Ourcustomer*/
+
+
+
+
+
+
+/* start section Contact us */
+body .contactus{
+    padding: 3%;
+    text-align: center;
+    margin-bottom:5%; 
+    overflow: hidden;
+}
+/* end section Contact us */
+
+
+
+
+
+
+/* start section News*/
+body .News{
+    text-align: center;
+    margin-top:3%;
+
+    padding: 5% 0;
+    background: linear-gradient(rgba(144, 144, 144, 0.8), rgba(0, 0, 0, 0.38)), url(../img/new.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+    
+    
+}
+
+
+/* start section News*/
+
+
+
+/* start section footer*/
+footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2% 1% ;
+    overflow: hidden;
+   
+    
+    
+}
+footer p{
+    width:20vw;
+    padding: 5% 0;
+    line-height: 1.7;
+    
+}
+footer .container div{
+    width: 33.33%;
+    float: left;
+   
+    
+}
+footer .links > ul{
+    display: inline;
+    margin-left:7%;
+    padding:3% 20% 0 0;
+    float: left;
+     
+    
+    
+}
+footer .links ul li{
+    padding: 5% 0;
+}
+footer .links ul li a{
+    text-decoration: none; 
+    margin:8% 12% 2% 0;
+    color: #fff;
+}
+
+footer .social ul {
+    margin-top: 7%;
+    padding: 0;
+   
+}
+footer .social ul li{
+    display: inline;
+     
+    
+    
+}
+footer .social ul li a{
+    text-decoration: none; 
+    margin:0 12% 0 0;
+   
+    color: #fff;
+    
+    
+}
+footer .social ul li a:active{
+    color: #F7941D;
+}
+footer .social ul li a:hover{
+    color: #F7941D;
+}
+footer .container{
+/*    border-bottom: 1px solid #ddd;*/
+}
+footer .copyright{
+    
+    margin:4%;
+    padding-top: 2%;
+    width: 100%;
+    
+   
+    
+}
+/* end section footer*/
+
+
+@media all and (max-width:876px){
+    
+#hamburger{
+        display: block;
+    }
+
+body header  #navbarNav {
+        
+        display: none;
+        background-color: #eee;
+        padding: 4% 6%;
+        text-align: center;
+        
+        
+}
+   
+body header  #navbarNav li{
+        display: block;
+        padding: 5% 1%;
+        line-height: 1.5;
+        font-size: 18px;
+        
+        
+    }
+
+body header #navbarNav li a{
+        
+        color: #000 !important;
+        
+    }
+    
+.topSection .sitename{
+   
+    padding:0;
+    margin-top: .1rem;
+    
+}
+.topSection .sitename h1{
+    
+    font-weight: 700;
+    
+}
+sup{
+    top: -3em !important;
+    left: .5em;
+ 
+    
+    
+}
+.topSection .text-overlay{
+    position: absolute;
+    top: 15vh;
+    left: 0;
+    right:10vh;
+    bottom: 0;
+/*    z-index: 0;*/
+ 
+    
+}
+.topSection .text-overlay h3{
+    font-size: 2rem;
+    letter-spacing: 4px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+    
+    
+body .Ourcustomer .container .row div{
+    width: 50%;
+    
+    margin-top: 8%;
+}
+body .VerticalAI .container .row div{
+    width: 100%;
+    
+}
+    body .VerticalAI .divimg{
+        position: absolute;
+        bottom: .5rem;
+    }
+body .Ourpartener .container .row div{
+     margin-top: 8%;
+    width: 50%;
+    
+}
+body .services .container .row div{
+        width: 45%;
+        margin: 3% 2%;
+    }
+    body .services .card{
+        width: 25rem;
+        word-break: break-all;
+    }
+body .Whoare .container .row div{
+    width: 100%;
+    
+    
+}
+body .Whoare .container .row div:first-child{
+        padding-bottom: 11rem;
+    }
+    
+  
+ footer .container div{
+    width: 100%;
+    margin: 2%;
+    
+}   
+}
